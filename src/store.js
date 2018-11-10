@@ -65,7 +65,7 @@ const initialState = { settings: JSON.parse(localStorage.getItem("settings")) };
 const store = createStoreWithFirebase(
   rootReducer,
   initialState,
-  composeWithDevTools(applyMiddleware(...middleware))
+  composeWithDevTools(reactReduxFirebase(firebase))
 );
 
 export default store;
