@@ -13,6 +13,7 @@
     "react-scripts": "2.1.1",
     "redux": "^4.0.1",
     "redux-auth-wrapper": "^2.0.3",
+    "redux-devtools-extension": "^2.13.5",
     "redux-firestore": "^0.5.8"
   },
   "scripts": {
